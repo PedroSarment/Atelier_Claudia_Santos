@@ -1,0 +1,110 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* TOPO */
+
+#topo{
+    background: #FFF;
+    border-bottom: solid 3px #D1AAA6;
+}
+
+#logo{
+    float: left;
+    width: 30%;
+}
+
+#logo img {
+    margin: 20px 30px;
+    no-repeat;
+    width: 70%;
+
+}
+
+#menu{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+
+
+#menu-h{
+    background-color: #fff;
+    margin: 50px 0 0 0;
+}
+
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    width: 90%;
+}
+
+#menu-h ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#menu-h ul li a {
+    color: #d1aaa6;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: #d1aaa6;
+    color: #FFF;
+
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: #d1aaa6;
+    color: #FFF;
+}
+
+/* CONTEUDO */
+
+#conteudo{
+
+    width: 100%;
+    height: 100%;
+}
+
+.imagem1{
+    background: url(imagens/model-demonstrating-earrings-and-ring.jpg);
+
+}
+.imagem2{
+    background: url(imagens/golden-bracelets-and-earrings-with-pearls.jpg);
+
+}
+.imagem3{
+    background: url(imagens/outdoor-portrait-of-woman-in-pink-romantic-dress-wearing-necklace.jpg);
+
+}
+
+
+
+.imagem1, .imagem2, .imagem3 {
+    width: 100%;
+    height: 100%;
+    background-position:bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.6;
+}
