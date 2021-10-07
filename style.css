@@ -1,14 +1,13 @@
 body, html{
     margin: 0;
     padding: 0;
-    height: 100%;
     width: 100%;
+    height: 100%;
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -28,9 +27,9 @@ body, html{
 }
 
 #logo img {
-    margin: 20px 30px;
+    margin: 10px 30px;
     no-repeat;
-    width: 70%;
+    width: 60%;
 
 }
 
@@ -43,13 +42,13 @@ body, html{
 
 #menu-h{
     background-color: #fff;
-    margin: 50px 0 0 0;
+    margin: 30px 0 0 0;
 }
 
 #menu-h ul {
     list-style: none;
     padding: 0;
-    width: 90%;
+    width: 95%;
 }
 
 #menu-h ul li {
@@ -83,6 +82,8 @@ body, html{
 
     width: 100%;
     height: 100%;
+    display: block;
+
 }
 
 .imagem1{
@@ -97,14 +98,36 @@ body, html{
     background: url(imagens/outdoor-portrait-of-woman-in-pink-romantic-dress-wearing-necklace.jpg);
 
 }
+.imagem4{
+    background: url(imagens/model-demonstrating-silver-earrings.jpg);
+
+}
+.imagem5{
+    background: url(imagens/wedding-preparation-beautiful-happy-bride-dresses-earrings-before-wedding.jpg);
+
+}
 
 
 
-.imagem1, .imagem2, .imagem3 {
+.imagem1, .imagem2, .imagem3, .imagem4, .imagem5 {
     width: 100%;
     height: 100%;
     background-position:bottom;
-    background-attachment: fixed;
+    background-attachment:fixed ;
     background-size: cover;
     opacity: 0.6;
+    display: block;
+
+}
+
+#rodape{
+    width: 100%;
+    background: #d1aaa6;
+    color: #FFF;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
 }
